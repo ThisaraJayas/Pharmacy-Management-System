@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="arrow-left.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.03375"
+     inkscape:cx="400.48368"
+     inkscape:cy="399.51632"
+     inkscape:window-width="1469"
+     inkscape:window-height="998"
+     inkscape:window-x="290"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" />
+  <title
+     id="title2">arrow_down [#348]</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     transform="rotate(90,10,10)">
+    <g
+       id="Dribbble-Light-Preview"
+       transform="translate(-220,-6639)"
+       fill="#000000">
+      <g
+         id="icons"
+         transform="translate(56,160)">
+        <path
+           d="m 184,6489 -1.393,-1.435 -7.607,7.607 V 6479 h -2 v 16.172 l -7.586,-7.586 L 164,6489 c 3.661,3.661 6.496,6.496 10,10 l 10,-10"
+           id="arrow_down-[#348]" />
+      </g>
+    </g>
+  </g>
+</svg>

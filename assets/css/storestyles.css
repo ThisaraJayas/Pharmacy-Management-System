@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+.container {
+	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: -40px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin: 5% auto;
+	width: fit-content;
+}
+
+.container .ima {
+	width: 160px;
+	margin-top: 10px;
+}
+
+.container .product {
+	text-align: center;
+	box-shadow: 1px 1px 2px 2px Gainsboro;
+	width: 250px;
+	height: 310px;
+	margin-left: 70px;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-bottom: 50px;
+	text-decoration: none;
+	background-color: white;
+}
+
+.addcartbutton {
+	padding: 10px 20px 10px 20px;
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.storebutton {
+	color: white;
+}
+
+.product:hover {
+	box-shadow: 2px 2px 3px 3px DarkGrey;
+}
+
+.storeresult {
+	align-items: center;
+	margin-top: 18%;
+	margin-left: 35%;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 40px;
+
+}
+
+.storebar {
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+
+.addprobutton {
+	margin-left: 830px;
+	font-size: 12px;
+	padding: 8px;
+	background-color: blue;
+	border-radius: 5px;
+
+}
+
+.addprobutton a {
+	text-decoration: none;
+	color: black;
+	color: white;
+	font-weight: bold;
+}
+
+.searchtext {
+	padding: 10px;
+	width: 200px;
+	font-size: 17px;
+
+}
+
+.searchbutton {
+	height: 45px;
+	width: 100px;
+	font-size: 14px;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.storetitle h2 {
+	text-align: center;
+	margin-top: 25px;
+	font-family: "Arial", sans-serif;
+	font-size: 50px;
+	color: DimGrey;
+
+}
+
+.price {
+	font-size: 14px;
+	color: black;
+	margin-top: -5px;
+	margin-bottom: 10px;
+}
+
+.productname {
+	margin-top: -1px;
+	font-size: 21px;
+	color: black;
+}

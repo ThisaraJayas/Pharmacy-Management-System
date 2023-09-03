@@ -1,0 +1,59 @@
+* {box-sizing: border-box}
+/* import backgorund */
+body {
+    background-image: url("../images/login.jpg");
+}
+
+/* set style for form */
+form {
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    padding: 2%;
+    background-color: #0047AB;
+    color: white;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 12px;
+}
+
+/* full-width inputs */
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  /* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+/* set style for all button */
+button {
+    background-color: #13274F;
+    color: rgba(255, 255, 255, 0.901);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* add hover effect */
+button:hover {
+    opacity: 0.9;
+}
+
+
+p a{
+    color: rgb(201, 195, 206);
+}

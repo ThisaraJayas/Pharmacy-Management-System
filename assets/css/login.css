@@ -1,0 +1,91 @@
+/* form border */
+form {
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    padding: 2%;
+    background-color: #0047AB;
+    color: white;
+}
+
+/* full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+/* set style for all button */
+button {
+    background-color: #13274F;
+    color: rgba(255, 255, 255, 0.901);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* add hover effect */
+button:hover {
+    opacity: 0.9;
+}
+
+/* style cancel button */
+.canclebtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #13274F;
+
+
+}
+
+/* change cancel button text color*/
+.canclebtn a {
+    color: white;
+    text-decoration: none;
+}
+
+/* center image */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* add padding to container */
+.container {
+    padding: 16px;
+}
+
+/* forgot password */
+span.psw {
+    float: right;
+    padding-top: 16px;
+
+}
+
+span.psw a {
+    color: white;
+}
+
+span.reg {
+    padding-left: 10px 16px;
+    color: white;
+
+}
+
+span.reg a {
+    color: white;
+}

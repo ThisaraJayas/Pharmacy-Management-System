@@ -1,0 +1,38 @@
+.carousel {
+    display: flex;
+    align-items: center;
+}
+
+.carousel .carousel-prev,
+.carousel .carousel-next {
+    margin: auto 0;
+    flex-grow: 0;
+}
+
+
+
+.carousel .carousel-spacer {
+    flex-grow: 1;
+}
+
+.carousel-contents {
+    overflow-x: hidden;
+    list-style-type: none;
+    display: flex;
+    flex-grow: 0;
+    padding: 0 10px;
+}
+
+.carousel-contents>.item {
+    flex-shrink: 0;
+    display: none;
+}
+
+.carousel-contents>.item.visible {
+    display: inline-block;
+}
+
+
+.carousel .item.odd {
+    background-color: red;
+}

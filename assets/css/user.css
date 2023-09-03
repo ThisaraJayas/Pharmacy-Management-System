@@ -1,0 +1,94 @@
+main {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-details-card {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 16px 24px;
+    max-width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field {
+    border-bottom: 1px solid rgba(20, 20, 20, 0.3);
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+}
+
+.user-details-card.edit .field {
+    border-bottom: none;
+}
+
+
+.field .name {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 8px;
+}
+
+.field .value,
+.field .value-edit {
+    font-size: 1.05rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 8px;
+    width: 90%;
+}
+
+.field .value {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.field .value-edit {
+    margin-left: 8px;
+    padding: 4px;
+    padding-left: 8px;
+
+}
+
+.button-bar,
+.button-bar-edit {
+    display: flex;
+    width: 100%;
+}
+
+.user-details-card:not(.edit) .value-edit,
+.user-details-card:not(.edit) .button-bar-edit {
+    display: none;
+}
+
+.user-details-card.edit .value,
+.user-details-card.edit .button-bar {
+    display: none;
+}
+
+.user-details-card .button-bar .button,
+#user-password .button-bar-edit .button:first-child {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.user-details-card .button-bar-edit .button:first-child {
+    margin-right: auto;
+}
+
+
+
+.user-details-card .button-bar,
+.user-details-card .button-bar-edit {
+    padding-top: 30px;
+}
+
+#cancel-button {
+    background-color: rgb(170, 0, 0);
+    border-color: rgb(170, 0, 0);
+}
+
+.user-details-card:not(:first-child) {
+    margin-top: 3.2em;
+}

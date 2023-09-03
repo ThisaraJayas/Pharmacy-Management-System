@@ -1,0 +1,39 @@
+.imaview {
+	width: 350px;
+	margin-left: 50px;
+}
+
+.mainview {
+	margin-top: -8%;
+	margin-left: 20%;
+}
+
+.productnameview {
+	font-size: 50px;
+}
+
+.priceview {
+	margin-bottom: 20px;
+	margin-top: -20px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.descview {
+	margin-bottom: 50px;
+	margin-top: -20px;
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+.itemnum-container {
+	margin-bottom: 10px;
+	;
+}
+
+.itemnum {
+	width: 30px;
+	padding: 6px 8px;
+	font-size: 15px;
+	margin-left: 6px;
+}

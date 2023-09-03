@@ -1,0 +1,142 @@
+#site-banner {
+    width: 100vw;
+    height: 500px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-title {
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: left;
+}
+
+#banner-title h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#banner-title p {
+    margin-top: -2%;
+    font-size: 25px;
+}
+
+#site-about {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#site-about h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#site-about p {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-family: roboto, sans-serif;
+}
+
+#search-bar {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(69, 69, 247);
+    display: flex;
+}
+
+#search-bar .content {
+    margin: auto;
+}
+
+#search-bar input[type="search"] {
+    min-width: 25vw;
+    height: 2.8em;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 48px;
+    font-size: 1.04rem;
+}
+
+#search-bar img {
+    transform: translateX(48px) translateY(11px) scale(80%);
+}
+
+
+#promo-carousel {
+    height: 260px;
+    min-width: 10px;
+}
+
+.promo-card {
+    width: 220px;
+    height: 260px;
+    margin: 4px 8px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+    color: black;
+
+    border: 1px solid rgb(203, 203, 221, 0.5);
+    box-shadow: 1px 1px 5px 1px rgb(203, 203, 221);
+}
+
+.promo-card:hover {
+    box-shadow: none;
+}
+
+.promo-card>.product-image {
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+.promo-card>.product-name {
+    font-size: 1.2em;
+    font-weight: 550;
+    display: block;
+
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+
+    max-height: 2em;
+    text-align: center;
+
+    padding: 2px 8px;
+}
+
+.promo-card>.product-price {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 8px;
+}
+
+.promo-card>.product-price .old-price {
+    font-size: small;
+    text-decoration: line-through;
+    display: block;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.promo-card>.product-buy {
+    width: 10ch;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+#promo-title {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}

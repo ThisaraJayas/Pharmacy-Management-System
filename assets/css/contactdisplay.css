@@ -1,0 +1,20 @@
+.table {
+	margin: 5% auto;
+	width: fit-content;
+}
+.table .displayTable{
+    width: 900px;
+    border-collapse: collapse;
+}
+.displayTable td{
+	padding: 10px;
+	border: 1px solid black;
+	text-align: center;
+}
+.tableheading{
+	font-size: 17px;
+	font-weight: bold;
+}
+.contxt{
+	font-size: 14px;
+}

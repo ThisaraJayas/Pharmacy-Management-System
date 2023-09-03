@@ -1,0 +1,111 @@
+@charset "UTF-8";
+body{
+	background-color: WhiteSmoke;
+
+}
+
+h2{
+	text-align: center;
+	margin-top: 1px;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 40px;
+	margin-bottom: 5%;
+	color: SlateGrey;
+}
+form{
+	position: absolute;
+	left: 50%;
+	top: 75%;
+	transform: translate(-50%,-50%);
+	padding: 30px;
+	width: 350px;
+    background-color: white;
+	border: 1px solid black;
+    border-radius: 5px;
+}
+.tbox{
+    margin: 5px 0;
+	width: 100%;
+}
+.button1{
+	padding: 10px 20px 10px 20px;
+	margin-left: 30%;
+	margin-top: 30px;
+	background-color: blue;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+.button-container {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+}
+.button2{
+	padding: 10px 20px 10px 20px;
+	margin-left: 90%;
+	margin-top: 4px;
+	background-color: blue;
+	font-size: 14px;
+	font-weight: bold;
+}
+.button2 a{
+	color: white;
+	text-decoration: none;
+}
+.deletebutton{
+	padding: 10px 20px 10px 20px;
+	background-color: red;
+	color: red;
+	font-size: 14px;
+	font-weight: bold;
+	width: 110px;
+}
+.deletebutton .deltxt{
+	color: white;
+	text-decoration: none;
+}
+.updatebutton{
+	padding: 10px 20px 10px 20px;
+	background-color: blue;
+	color: red;
+	font-size: 14px;
+	font-weight: bold;
+	width: 110px;
+}
+.updatebutton .updtxt{
+	color: white;
+	text-decoration: none;
+}
+.imagetxt{
+	color: Maroon;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+}
+.displayTable {
+	margin-bottom: 5%;
+	 margin: 44% auto;
+	width: fit-content;
+}
+.displayTable .disTable{
+	margin-top: 60%;
+ width: 1000px;
+  border-collapse: collapse;
+}
+.disTable td{
+	padding: 10px;
+	text-align: center;
+	 border: 1px solid black;
+}
+.tablemaintxt{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.tabletxt{
+	font-size: 16px;
+	font-weight: bold;
+}
+img{
+	width: 100px;
+}
