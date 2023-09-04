@@ -142,7 +142,7 @@
 
                 </div>
                 <div class="link-row">
-                    <span class="heading">Link row 2</span>
+                    <span class="heading">Link row 1</span>
 
                 </div>
                 <div class="link-row">
@@ -165,7 +165,7 @@
                     <div class="detail">
                         <img class="icon" src="./assets/images/icons/location.svg" alt="Location icon" height="16px" width="16px">
                         <span class="content">
-                            No 1234, <br>
+                            No 1238, <br>
                             Street name 1,<br>
                             Street name 2, <br>
                             Location
