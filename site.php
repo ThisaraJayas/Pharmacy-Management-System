@@ -138,7 +138,7 @@
             </div>
             <div class="links">
                 <div class="link-row">
-                    <span class="heading">Link row 1</span>
+                    <span class="heading">Email Addres</span>
 
                 </div>
                 <div class="link-row">
