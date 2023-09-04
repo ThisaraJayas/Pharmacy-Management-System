@@ -166,7 +166,7 @@
                         <img class="icon" src="./assets/images/icons/location.svg" alt="Location icon" height="16px" width="16px">
                         <span class="content">
                             No 1238, <br>
-                            New Kandy rd,<br>
+                            New Kandy road,<br>
                             Kothalawala Kaduwela, <br>
                             Location
                         </span>
