@@ -166,8 +166,8 @@
                         <img class="icon" src="./assets/images/icons/location.svg" alt="Location icon" height="16px" width="16px">
                         <span class="content">
                             No 1238, <br>
-                            Street name 1,<br>
-                            Street name 2, <br>
+                            New Kandy rd,<br>
+                            Kothalawala Kaduwela, <br>
                             Location
                         </span>
                     </div>
