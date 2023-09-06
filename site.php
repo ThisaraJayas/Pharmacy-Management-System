@@ -174,7 +174,7 @@
                 </div>
             </div>
         </div>
-        <div id="copyright">Copyright 2023 MedSmart</div>
+        <div id="copyright">Copyright 2024 MedSmart</div>
     </footer>';
     }
 
