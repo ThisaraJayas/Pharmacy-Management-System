@@ -57,9 +57,9 @@ if (isset($_POST['submit'])) {
       <div class="contactinfo">
         <h2>Contact Information</h2><br>
         <p>☎ Phone No: +94 123 456 7890</p><br>
-        <p>🖷 Fax: +94 123 456 7891</p><br>
+        <p>🖷 Fax: +94 123 456 2000</p><br>
         <p>✉ Email: MedSmart@gmail.com</p><br>
-        <p>📍 Address: 123 Main Street, Malabe, Sri Lanka</p><br>
+        <p>📍 Address: 303 Main Street, Malabe, Sri Lanka</p><br>
       </div>
     </div>
   </main>
